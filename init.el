@@ -6,6 +6,7 @@
 		     helm
 		     projectile
 		     helm-projectile
+		     helm-ag
 		     elpy
 		     material-theme))
 

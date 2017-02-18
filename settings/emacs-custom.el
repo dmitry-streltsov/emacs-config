@@ -40,6 +40,15 @@
 ;; keybindings
 (global-set-key (kbd "C-x g") 'magit-status) 
 
+;; backups
+(setq
+ backup-directory-alist '(("." . "~/emacs.d/backups"))
+ backup-by-copying t
+ delete-old-versions t
+ kept-new-versions 6
+ kept-old-versions 2
+ version-control t)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

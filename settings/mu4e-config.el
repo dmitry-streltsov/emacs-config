@@ -23,7 +23,7 @@
     '( ("/INBOX"               . ?i)
        ("/[Gmail].Sent Mail"   . ?s)
        ("/[Gmail].Trash"       . ?t)
-       ("/2016"                . ?a)))
+       ("/2017"                . ?a)))
 
 ;; allow for updating mail using 'U' in the main view:
 (setq mu4e-get-mail-command "offlineimap")
